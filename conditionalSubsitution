@@ -1,0 +1,17 @@
+#Variable name defined as mano
+
+#If the variable "name" is not defined, takes value of ajay
+name=mano
+echo ${name-ajay} 
+
+#Defining variable class as zoom
+class=zoom
+
+#Prints value of variable "class", and if not defined, takes the value "freshman"
+echo ${class=freshman}
+ 
+#If class is defined takes value of "Math", if not returns nothing
+echo ${class+Math} 
+
+#Returns value of variable "food" if defined, if not prints message "No food"
+echo ${food?No food}
