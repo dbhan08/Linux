@@ -1,0 +1,2 @@
+cd ~deyvikbhan/a/
+ls -l | grep "emp.data"

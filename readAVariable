@@ -1,0 +1,5 @@
+echo "Enter your name:"
+read name
+echo "Enter your age:\c"
+read age
+echo "Hello $name, nice to meet you. You are $age years old."

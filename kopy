@@ -1,0 +1,7 @@
+echo "Enter source file name:\c"
+read source
+echo "Enter the target file name:\c"
+read target
+cp $source $target
+echo File $source is copied into file $target
+

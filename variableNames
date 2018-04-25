@@ -1,0 +1,3 @@
+name=mano
+age=56
+echo $name $age
